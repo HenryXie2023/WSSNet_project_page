@@ -1,0 +1,28 @@
+data:
+  train_dir: ""
+  val_dir: ""
+  test_dir: ""
+  crop_size: 256
+  train_size: 3200
+  val_size: 24
+
+noise:
+  type: "speckle"
+  param: 100
+
+model:
+  in_channels: 3
+  out_channels: 3
+
+training:
+  output_dir: "outputs"
+  learning_rate: 0.001
+  adam: [0.9, 0.99, 0.00000001]
+  batch_size: 4
+  epochs: 100
+  loss: "l1"
+  cuda: true
+  seed: 9
+  report_interval: 400
+  clean_targets: false
+  checkpoint_overwrite: false

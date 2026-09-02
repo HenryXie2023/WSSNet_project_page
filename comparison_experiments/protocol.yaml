@@ -1,0 +1,27 @@
+dataset:
+  train_set_path: data/train
+  validation_set_path: data/val
+  test_set_path: data/test
+  image_dir_name: images
+  mask_dir_name: masks
+input_size: [256, 256]
+batch_size: 8
+max_epochs: 50
+optimizer: Adam
+initial_learning_rate: 0.0001
+minimum_learning_rate: null
+learning_rate_schedule: none
+random_seed: 11
+checkpoint_selection_rule: best validation loss
+evaluation_metrics:
+  - OA
+  - Precision
+  - Recall
+  - F1
+  - IoU
+  - Kappa
+  - Specificity
+  - FPR
+  - FNR
+  - F2
+output_directory: comparison_outputs

@@ -1,0 +1,57 @@
+baselines:
+  unet:
+    name: U-Net
+    year: 2015
+    repository: https://github.com/bubbliiiing/unet-pytorch
+    local_repository_path: ../third_party_baselines/unet-pytorch
+    framework: pytorch
+    adapter: generic_external
+  deeplabv3plus:
+    name: DeepLabV3+
+    year: 2018
+    repository: https://github.com/bubbliiiing/deeplabv3-plus-pytorch
+    local_repository_path: ../third_party_baselines/deeplabv3-plus-pytorch
+    framework: pytorch
+    adapter: generic_external
+  transunet:
+    name: TransUNet
+    year: 2021
+    repository: https://github.com/Beckschen/TransUNet
+    local_repository_path: ../third_party_baselines/TransUNet
+    framework: pytorch
+    adapter: generic_external
+  emcad:
+    name: EMCAD
+    year: 2024
+    repository: https://github.com/SLDGroup/EMCAD
+    local_repository_path: ../third_party_baselines/EMCAD
+    framework: pytorch
+    adapter: generic_external
+  selfreg_unet:
+    name: SelfReg-UNet
+    year: 2024
+    repository: https://github.com/ChongQingNoSubway/SelfReg-UNet
+    local_repository_path: ../third_party_baselines/SelfReg-UNet
+    framework: pytorch
+    adapter: generic_external
+  efficientvim:
+    name: EfficientViM
+    year: 2025
+    repository: https://github.com/mlvlab/EfficientViM
+    local_repository_path: ../third_party_baselines/EfficientViM
+    framework: pytorch
+    adapter: generic_external
+  transoilseg:
+    name: TransOilSeg
+    year: 2025
+    repository: https://github.com/cy7372/TransOilSeg
+    local_repository_path: ../third_party_baselines/TransOilSeg
+    framework: pytorch
+    adapter: generic_external
+  oilspillnet:
+    name: OilSpillNet
+    year: 2026
+    repository: https://github.com/AnavKatwal/OilSpillNet
+    local_repository_path: ../third_party_baselines/OilSpillNet
+    framework: pytorch
+    adapter: generic_external
