@@ -263,3 +263,37 @@ PyYAML
 tqdm
 pytorch-wavelets
 ```
+
+## Acknowledgements
+﻿
+We sincerely thank the authors of the following open-source projects for making their research and implementations publicly available:
+﻿
+* **AdaReNet**: *Rotation-Equivariant Self-Supervised Method in Image Denoising*, CVPR 2025.
+* **EfficientViM**: *EfficientViM: Efficient Vision Mamba with Hidden State Mixer-based State Space Duality*, CVPR 2025.
+﻿
+AdaAttReNet was developed with reference to the adaptive rotation-equivariant denoising framework of AdaReNet, and the state-space modeling component used in MEMCAU was developed with reference to EfficientViM.
+﻿
+We also thank the authors of the open-source baseline implementations listed in the Comparison Experiments section. Their publicly available implementations greatly facilitated reproducible comparisons.
+﻿
+## Citation
+﻿
+If you use WSSNet, WSSNet-Mini, WSSNet-Tiny, AdaAttReNet, or any part of this repository in your research, please cite our paper:
+﻿
+```bibtex
+@article{Xie2026WSSNet,
+title   = {Reliable SAR Oil-Spill Segmentation for Marine Monitoring via Self-Supervised Denoising and Lightweight Wavelet-State-Space Modeling},
+author  = {Yiheng Xie, Xiaoping Rui, Yarong Zou, Heng Tang, Ninglei Ouyang, Hongyue Zhang and Jiayu Ge},
+journal = {GIScience \& Remote Sensing},
+year    = {2026},
+doi     = {10.1080/15481603.2026.2727781}
+}
+```
+## License and Usage
+﻿
+This repository is released for research and development purposes.
+﻿
+The original code developed for this project is made available under the MIT License. You are free to use, modify, and redistribute the code in accordance with the terms of the license.
+﻿
+If this repository or its components contribute to an academic publication, we kindly request that you cite the corresponding WSSNet paper.
+﻿
+Third-party code, algorithms, and implementations referenced or incorporated into this repository remain subject to their respective original licenses and copyright notices. Please consult the corresponding upstream repositories for their licensing terms.
