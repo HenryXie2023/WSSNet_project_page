@@ -6,7 +6,7 @@ dataset:
   mask_dir_name: masks
 input_size: [256, 256]
 batch_size: 8
-max_epochs: 50
+max_epochs: 100
 optimizer: Adam
 initial_learning_rate: 0.0001
 minimum_learning_rate: null
