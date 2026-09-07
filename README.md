@@ -130,6 +130,8 @@ data/
 
 Supported image and mask formats are PNG, JPG/JPEG, BMP, TIF, and TIFF. Masks are binary segmentation masks; pixel values greater than 127 are treated as foreground. Images and masks are paired by file stem.
 
+> **Note:** The paths `data/images` and `data/masks` shown in the commands below are illustrative placeholders only and should be replaced with the appropriate image and mask directories for each stage of the experiment.
+
 Configuration files:
 
 ```text
